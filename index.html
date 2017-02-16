@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link type="text/css" rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" />
+        <link rel="stylesheet" href="main.css" />
+        <title>David's Humble Abode</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="docs/Resume.pdf">Resume</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Project Portfolio</a>
+                    <div class="dropdown-content">
+                        <a href="portfolio/silent-backup.html">SilentBackup</a>
+                        <a href="portfolio/my-canadian-food-guide.html">My Canadian Food Guide</a>
+                        <a href="portfolio/train-animation.html">Train Animation and Model</a>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    
+        <div id="about" class="AboutMe">
+            <h1>About Me</h1>
+            <img src="assets/Me003.png" />
+            <div class="AboutMeText">
+                <p class="SelfText">I am your typical developer who is passionate about software development and all of its aspects. I hope to be able to make a difference in what I do and every project I work on is a new learning experience.
+                </p>
+                <br />
+                <p class="SelfText">I enjoy working in a team or individually, and I constantly strive to increase my knowledge on today's technology.  </p>
+            </div>
+            <p></p>
+        </div>    
+        
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>Contact Me</h3>
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus >
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your email address" type="email" tabindex="2" required >
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your message here..." tabindex="3" required ></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" >Submit</button>
+                </fieldset>
+            </form>
+            
+        </div>
+        
+        <div class="container2">
+            <footer>
+                &copy; 2017 David Wesley Au
+            </footer>
+        </div>
+
+    </body>
+</html>
