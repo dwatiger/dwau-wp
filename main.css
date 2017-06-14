@@ -1,0 +1,26 @@
+body {
+    background-color:#ffffcc;
+}
+
+.bg-1 {
+    background-color:#ffffcc;
+    color:#000000;
+}
+
+.bg-2 {
+    background-color:#ccffff;
+    color:#000000;
+}
+
+.bg-e {
+    background-color:#fff;
+    color:#000;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel .item img {
+    margin: 0 auto;
+}
