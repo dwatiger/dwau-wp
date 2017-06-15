@@ -1,3 +1,10 @@
+h2 {
+    font-size:24px;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
 body {
     background-color:#ffffcc;
 }
@@ -23,4 +30,8 @@ body {
 
 .carousel .item img {
     margin: 0 auto;
+}
+
+.vsize {
+    width:600px;
 }
